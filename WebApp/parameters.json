@@ -1,0 +1,27 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "02813c8c-fc66-4c65-a64b-4d8425a110a6"
+        },
+        "name": {
+            "value": "testvpo"
+        },
+        "location": {
+            "value": "West Europe"
+        },
+        "hostingPlanName": {
+            "value": "ASP-cwfrpreprod"
+        },
+        "serverFarmResourceGroup": {
+            "value": "rg-np-westeurope-10-164-137-0-24"
+        },
+        "alwaysOn": {
+            "value": true
+        },
+        "linuxFxVersion": {
+            "value": "NODE|14-lts"
+        }
+    }
+}
